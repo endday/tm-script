@@ -1,11 +1,13 @@
 // ==UserScript==
-// @name         谷歌CDN替换
+// @name         Google谷歌CDN替换
+// @namespace    endday
 // @version      0.0.1
 // @description  将 Google 的 CDN 替换成国内的 CDN 地址
 // @author       endday
 // @license      GPL-2.0
 // @update       2020/4/15
-// @include      *
+// @match        https://*.stackoverflow.com
+// @match        https://*.stackoverflow.com/*
 // @homepageURL  https://github.com/endday/tm-script
 
 // @run-at       document-start
