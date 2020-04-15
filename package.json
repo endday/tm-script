@@ -1,0 +1,25 @@
+{
+  "name": "tm-script",
+  "description": "油猴脚本",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "author": "endday",
+  "license": "GPL-2.0",
+  "homepage": "https://github.com/endday/tm-script",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:endday/tm-script.git"
+  },
+  "scripts": {
+    "buildScript": "rollup -c"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "file-loader": "^3.0.1",
+    "rollup": "^1.32.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-terser": "^5.2.0"
+  }
+}
