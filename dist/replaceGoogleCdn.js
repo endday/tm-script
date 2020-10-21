@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         Google谷歌CDN替换
+// @name         stackoverflow的加载速度优化 js和css资源CDN替换
 // @namespace    endday
-// @version      0.0.1
-// @description  将 Google 的 CDN 替换成国内的 CDN 地址
+// @version      0.0.2
+// @description  将stackoverflow使用的Google相关的js和css资源替换成国内的 CDN 地址
 // @author       endday
 // @license      GPL-2.0
-// @update       2020/4/15
+// @update       2020/10/21
 // @match        https://*.stackoverflow.com
 // @match        https://*.stackoverflow.com/*
 // @homepageURL  https://github.com/endday/tm-script
